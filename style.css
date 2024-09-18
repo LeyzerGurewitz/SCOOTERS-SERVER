@@ -1,0 +1,121 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.container-home-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43,61,80);
+}
+
+.nav-home-page{
+    width: 100%;
+    height: 50px;
+    /* box-shadow: 2px 4px 10px rgb(201, 200, 200); */
+    display: flex;
+    /* justify-content: space-between; */
+    padding-left: 27px;
+    padding-right: 27px;
+    border-bottom: 2px solid #2a6f56;
+    align-items: center;
+
+ justify-content: center;
+}
+h2{
+    color: #289b5c;
+}
+.main-home-page-edit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* flex-grow: 1; */
+    width: 100%;
+    border-bottom:2px solid #2a6f56;
+    margin-bottom: 15px;
+}
+
+.form{
+    width: 50%;
+    padding: 15px;
+    background-color: #34495e;
+    box-shadow: 2px 4px 10px black;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    margin: 25px;
+    
+
+}
+.input-div{
+    width: 100%;
+}
+.input{
+    width: 100%;
+    background-color: #22313f;
+    margin-top: 7px;
+    height: 40px;
+    border-radius: 7px;
+    border: none;
+}
+
+#submit{
+    background-color: #27ae60;
+    width: 90;
+}
+#select{
+    color: white;
+}
+#table-div{
+    width: 100%;
+
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th {
+    height: 45px;
+    background-color: #f4f4f4;
+    color: #289b5c;
+    border: 1px solid #d9dbde ;
+}
+.edit{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(43,61,80);
+    display: none;
+}
+.table td{
+    background-color: rgb(43,61,80);
+    border: 1px solid #d9dbde ;
+    text-align: center;
+    /* height: 50px; */
+}
+#actions{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    flex-grow: 1;
+}
+#actions button{
+    background-color: #27ae60;
+    border: none;
+    height: 15px;
+    margin-bottom: 5px;
+    border-radius: 7px;
+    width: 100%;
+
+}
+.visible{
+    display: block;
+}
+.hidden{
+    display: none;
+}

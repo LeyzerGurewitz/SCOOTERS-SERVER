@@ -1,0 +1,128 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Scooters</title>
+</head>
+<body>
+    <div class="container-home-page">
+        <nav class="nav-home-page">
+            <h2 class="h2-home-page">Add Scooters</h2>
+        </nav>
+        <div id="sort-div">
+
+            <select name="" id="select-sort">
+                <option>serialNumber</option>
+                <option>batteryLevel</option>
+                <option>model</option>
+            </select>
+            <button id="button-sort">sort</button>
+        </div>
+        <div id="filter-element">
+            <input type="text" id="input-filter">
+            <select name="" id="select-filter">
+                <option>serialNumber</option>
+                <option>batteryLevel</option>
+                <option>model</option>
+            </select>
+            <button id="button-filter">filter</button>
+        </div>
+        <Main class="main-home-page-edit">
+            <form id="form-main" class="form" action="">
+                <div class="input-div">
+
+                    <input id="serial-number" class="input" type="text" placeholder="serial number">
+                </div>
+                <div  class="input-div">
+
+                    <input id="model" class="input" type="text" placeholder="model">
+                </div>
+                <div  class="input-div">
+
+                    <input id="battery-level" class="input" type="number" min="0" max="100" placeholder="battery level">
+                </div>
+                <div  class="input-div">
+
+                    <input id="image-url" class="input" type="text" placeholder="image url">
+                </div>
+                <div  class="input-div">
+
+                    <input id="color" class="input" type="text" placeholder="color">
+                </div>
+                <div class="input-div">
+
+                    <select id="status" class="input" name="" id="">
+                        <option>available</option>
+                        <option>inRepair</option>
+                        <option>unavailable</option>
+                    </select>
+                </div>
+                <div class="input-div">
+
+                    <input class="input" id="submit" type="submit" value="Add Scooter">
+                </div>
+            </form>
+            <div class="bottom">
+                <h2  class="bottom"> LIST SCOOTERS</h2>
+            </div>
+        </Main>
+        <div class="table-div">
+            <table class="table">
+                <tr>
+                    <th>serial number</th>
+                    <th>model</th>
+                    <th>battery level</th>
+                    <th>image url</th>
+                    <th>color</th>
+                    <th>status</th>
+                    <th>actions</th>
+                  </tr>
+            </table>
+        </div>
+    </div>
+    <div class="edit">
+        <div class="nav-home-page"> 
+            <h2 class="h2-home-page">EDIT SCOOTER</h2>
+        </div>
+        <div class="from-edit main-home-page-edit">
+            <form id="form-main-edit" class="form" action="">
+                <div class="input-div">
+
+                    <input id="serial-number-edit" class="input" type="text" placeholder="serial number">
+                </div>
+                <div  class="input-div">
+
+                    <input id="model-edit" class="input" type="text" placeholder="model">
+                </div>
+                <div  class="input-div">
+
+                    <input id="battery-level-edit" class="input" type="number" min="0" max="100" placeholder="battery level">
+                </div>
+                <div  class="input-div">
+
+                    <input id="image-url-edit" class="input" type="text" placeholder="image url">
+                </div>
+                <div  class="input-div">
+
+                    <input id="color-edit" class="input" type="text" placeholder="color">
+                </div>
+                <div class="input-div">
+
+                    <select id="status-edit" class="input" name="" id="">
+                        <option>available</option>
+                        <option>inRepair</option>
+                        <option>unavailable</option>
+                    </select>
+                </div>
+                <div class="input-div">
+
+                    <input class="input" id="submit-edit" type="submit" value="Add Personnel">
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script src="javaScript/script.js"></script>
+</body>
+</html>
